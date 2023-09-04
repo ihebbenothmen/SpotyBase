@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c083e7c-d71c-4fe0-bc69-b603c5db2edd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/Accomodation/AgencyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/Accomodation/AgentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/Accomodation/ChargeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/Accomodation/CheckoutController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/Accomodation/HouseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/Accomodation/ImageUploadResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/Candidacy/CandidacyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/Candidacy/CourseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/Candidacy/EmailController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/Candidacy/PdfToTextController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/Candidacy/TagController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/EventsAndComplaints/ChatController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/EventsAndComplaints/ClaimController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/EventsAndComplaints/EventsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/EventsAndComplaints/MapController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/EventsAndComplaints/MessageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/EventsAndComplaints/TwillioController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/EventsAndComplaints/WebSocketEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/Offer/HistoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/Offer/InteressantController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/Offer/OfferControllers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/SkillsAndQuizz/QuizController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/SkillsAndQuizz/SkillsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/User/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/User/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/forum/CommentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/forum/MessageForumController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/forum/PostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Controllers/forum/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/Accomodation/Agency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/Accomodation/Agent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/Accomodation/ChargeRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/Accomodation/House.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/Accomodation/Image.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/Accomodation/TypeHouses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/CandidatesAndCourses/Candidacy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/CandidatesAndCourses/CandidacySituation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/CandidatesAndCourses/CandidacyStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/CandidatesAndCourses/CourseTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/CandidatesAndCourses/Courses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/CandidatesAndCourses/Document.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/CandidatesAndCourses/Email.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/CandidatesAndCourses/OfferTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/CandidatesAndCourses/PdfToTextConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/CandidatesAndCourses/Tags.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/EventsAndComplaints/ChatMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/EventsAndComplaints/Claim.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/EventsAndComplaints/Events.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/EventsAndComplaints/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/EventsAndComplaints/ModaliteEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/EventsAndComplaints/QRCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/EventsAndComplaints/TypeClaim.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/EventsAndComplaints/TypeEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/Offer/Offer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/Offer/OfferDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/Offer/OfferHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/Offer/OfferInteressant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/SkillsAndQuizz/EtatQ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/SkillsAndQuizz/EtatR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/SkillsAndQuizz/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/SkillsAndQuizz/QuestionType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/SkillsAndQuizz/Quiz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/SkillsAndQuizz/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/SkillsAndQuizz/ResponseStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/SkillsAndQuizz/SkillDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/SkillsAndQuizz/Skills.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/User/Badge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/User/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/User/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/User/roletype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/User/roletype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/forum/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/forum/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Entities/forum/Post.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Repositories/Accomodation/IAgencyRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Repositories/Accomodation/IAgentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Repositories/Accomodation/IHousesRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Repositories/Accomodation/ImageRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Repositories/Candidacy/ICandidacyRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Repositories/Candidacy/ICourseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Repositories/Candidacy/IDocumentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Repositories/Candidacy/ITagReporsitory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Repositories/EventsAndComplaints/ClaimRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Repositories/EventsAndComplaints/EventRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Repositories/EventsAndComplaints/QRCodeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Repositories/Offer/IOffreHistoryRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Repositories/Offer/IOffreInteressantRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Repositories/Offer/IOffreRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Repositories/SkillsAndQuizz/QuestionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Repositories/SkillsAndQuizz/QuizRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Repositories/SkillsAndQuizz/ResponseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Repositories/SkillsAndQuizz/SkillsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Repositories/forum/CommentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Repositories/forum/MessageRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Repositories/forum/PostRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/Accomodation/AccomodationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/Accomodation/IAccomodationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/Accomodation/StripeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/Candidacy/CandidacyServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/Candidacy/CourseServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/Candidacy/DocumentServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/Candidacy/ICandidacyServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/Candidacy/ICourseServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/Candidacy/IDocumentServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/Candidacy/ITagServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/Candidacy/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/Candidacy/TagServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/Candidacy/mailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/EventsAndComplaints/ClaimService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/EventsAndComplaints/DuplicateComplainers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/EventsAndComplaints/EmailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/EventsAndComplaints/EventExcelGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/EventsAndComplaints/EventService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/EventsAndComplaints/IClaimService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/EventsAndComplaints/IEventsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/EventsAndComplaints/IQRCodeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/EventsAndComplaints/MostComplainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/EventsAndComplaints/QRCodeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/EventsAndComplaints/TwillioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/EventsAndComplaints/TwillioServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/Files/FileStorageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/Offer/IOffreService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/Offer/OffreService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/SkillsAndQuizz/IServiceQuiz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/SkillsAndQuizz/ISkillsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/SkillsAndQuizz/PDFGeneratorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/SkillsAndQuizz/ServiceQuiz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/SkillsAndQuizz/SkillsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/User/EmailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/User/EmailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/User/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/User/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/forum/CommentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/forum/MessageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/intermove/Services/forum/PostService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/Accomodation/AgencyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/Accomodation/AgentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/Accomodation/ChargeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/Accomodation/CheckoutController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/Accomodation/HouseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/Accomodation/ImageUploadResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/Candidacy/CandidacyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/Candidacy/CourseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/Candidacy/EmailController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/Candidacy/PdfToTextController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/Candidacy/TagController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/EventsAndComplaints/ChatController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/EventsAndComplaints/ClaimController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/EventsAndComplaints/EventsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/EventsAndComplaints/MapController$Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/EventsAndComplaints/MapController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/EventsAndComplaints/MessageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/EventsAndComplaints/TwillioController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/EventsAndComplaints/WebSocketEventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/Offer/HistoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/Offer/InteressantController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/Offer/OfferControllers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/SkillsAndQuizz/QuizController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/SkillsAndQuizz/SkillsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/SkillsAndQuizz/StudentResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/User/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/User/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/forum/CommentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/forum/MessageForumController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/forum/PostController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Controllers/forum/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/Accomodation/Agency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/Accomodation/Agent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/Accomodation/ChargeRequest$Currency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/Accomodation/ChargeRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/Accomodation/House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/Accomodation/Image$ImageBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/Accomodation/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/Accomodation/TypeHouses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/CandidatesAndCourses/Candidacy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/CandidatesAndCourses/CandidacySituation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/CandidatesAndCourses/CandidacyStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/CandidatesAndCourses/CourseTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/CandidatesAndCourses/Courses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/CandidatesAndCourses/Document.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/CandidatesAndCourses/Email.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/CandidatesAndCourses/OfferTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/CandidatesAndCourses/PdfToTextConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/CandidatesAndCourses/Tags.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/EventsAndComplaints/ChatMessage$MessageType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/EventsAndComplaints/ChatMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/EventsAndComplaints/Claim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/EventsAndComplaints/Events.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/EventsAndComplaints/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/EventsAndComplaints/ModaliteEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/EventsAndComplaints/QRCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/EventsAndComplaints/TypeClaim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/EventsAndComplaints/TypeEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/Offer/Offer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/Offer/OfferDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/Offer/OfferHistory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/Offer/OfferInteressant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/SkillsAndQuizz/EtatQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/SkillsAndQuizz/EtatR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/SkillsAndQuizz/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/SkillsAndQuizz/QuestionType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/SkillsAndQuizz/Quiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/SkillsAndQuizz/Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/SkillsAndQuizz/ResponseStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/SkillsAndQuizz/SkillDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/SkillsAndQuizz/Skills.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/User/Badge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/User/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/User/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/User/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/User/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/User/roletype.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/User/roletype.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/forum/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/forum/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Entities/forum/Post.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Repositories/Accomodation/IAgencyRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Repositories/Accomodation/IAgentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Repositories/Accomodation/IHousesRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Repositories/Accomodation/ImageRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Repositories/Candidacy/ICandidacyRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Repositories/Candidacy/ICourseRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Repositories/Candidacy/IDocumentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Repositories/Candidacy/ITagReporsitory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Repositories/EventsAndComplaints/ClaimRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Repositories/EventsAndComplaints/EventRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Repositories/EventsAndComplaints/QRCodeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Repositories/Offer/IOffreHistoryRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Repositories/Offer/IOffreInteressantRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Repositories/Offer/IOffreRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Repositories/SkillsAndQuizz/QuestionRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Repositories/SkillsAndQuizz/QuizRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Repositories/SkillsAndQuizz/ResponseRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Repositories/SkillsAndQuizz/SkillsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Repositories/forum/CommentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Repositories/forum/MessageRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Repositories/forum/PostRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/Accomodation/AccomodationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/Accomodation/IAccomodationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/Accomodation/StripeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/Candidacy/CandidacyServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/Candidacy/CourseServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/Candidacy/DocumentServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/Candidacy/ICandidacyServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/Candidacy/ICourseServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/Candidacy/IDocumentServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/Candidacy/ITagServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/Candidacy/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/Candidacy/TagServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/Candidacy/mailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/EventsAndComplaints/ClaimService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/EventsAndComplaints/DuplicateComplainers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/EventsAndComplaints/EmailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/EventsAndComplaints/EventExcelGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/EventsAndComplaints/EventService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/EventsAndComplaints/IClaimService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/EventsAndComplaints/IEventsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/EventsAndComplaints/IQRCodeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/EventsAndComplaints/MostComplainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/EventsAndComplaints/QRCodeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/EventsAndComplaints/TwillioService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/EventsAndComplaints/TwillioServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/Files/FileStorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/Offer/IOffreService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/Offer/OffreService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/SkillsAndQuizz/IServiceQuiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/SkillsAndQuizz/ISkillsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/SkillsAndQuizz/PDFGeneratorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/SkillsAndQuizz/ServiceQuiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/SkillsAndQuizz/SkillsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/User/EmailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/User/EmailServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/User/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/User/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/forum/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/forum/MessageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/intermove/Services/forum/PostService.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PHUKwRueBH1PGSMVWoGWEsNGe3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/IHEB/Desktop/SpotyBase/back",
+    "spring.configuration.checksum": "469bba0a564235dfceede42db14f17b0"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.InterMoveApplication (1)">
+    <configuration name="InterMoveApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="back" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.intermove.InterMoveApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterMoveApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="InterMove" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.intermove.InterMoveApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c083e7c-d71c-4fe0-bc69-b603c5db2edd" name="Changes" comment="" />
+      <created>1683113440738</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683113440738</updated>
+      <workItem from="1683113442230" duration="606000" />
+      <workItem from="1683147912422" duration="18800000" />
+      <workItem from="1683633622419" duration="918000" />
+      <workItem from="1690366234160" duration="549000" />
+      <workItem from="1691392783488" duration="2967000" />
+      <workItem from="1691400242641" duration="13360000" />
+      <workItem from="1691942602897" duration="7855000" />
+      <workItem from="1692205436413" duration="346000" />
+      <workItem from="1692342892019" duration="837000" />
+      <workItem from="1692351699905" duration="1883000" />
+      <workItem from="1693466658141" duration="749000" />
+      <workItem from="1693469523109" duration="807000" />
+      <workItem from="1693473775053" duration="10236000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

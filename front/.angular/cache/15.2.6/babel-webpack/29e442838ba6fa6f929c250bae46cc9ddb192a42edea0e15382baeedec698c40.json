@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class offer {}","map":{"version":3,"mappings":"AAAA,OAAM,MAAOA,KAAK","names":["offer"],"sourceRoot":"","sources":["C:\\Users\\IHEB\\Desktop\\User-final\\pidev-vff\\front\\src\\app\\models\\offer.ts"],"sourcesContent":["export class offer{\r\n    idoffre!:number;\r\n}"]},"metadata":{},"sourceType":"module","externalDependencies":[]}

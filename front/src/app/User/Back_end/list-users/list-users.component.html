@@ -1,0 +1,77 @@
+    
+                <!-- Navbar End -->
+    <div class="table-responsive">
+        <table class="table">
+            <thead style="color: black;">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col" style="color: white;">First Name</th>
+                    <th scope="col">Last Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Phone Number</th>
+                    <th scope="col">Edit</th>
+                    <th scope="col">Delete</th>
+                </tr>
+            </thead>
+            <tbody style="color: black;">
+                <tr *ngFor="let user of userDetails">
+                    <td>{{user.userid}}</td>
+                    <td>{{user.firstname}}</td>
+                    <td>{{user.lastname}}</td>
+                    <td>{{user.email}}</td>
+                    <td>{{user.phone}}</td>
+    
+                    <td><button (click)="openForm(user)" type="button" class="btn btn-danger" >Edit</button></td>
+                    <td><button type="button" class="btn btn-danger" (click)="deleteUser(user)">Delete</button></td>
+                </tr>
+    
+    
+            </tbody>
+        </table>
+    </div>
+
+    <div class="form-wrapper" *ngIf="showForm">
+        <div class="mobileForm">
+            <div class="group">
+                <label for="mobile">userId</label>
+                <input type="text" class="form-control" [(ngModel)]="studentToUpdate.userid" name="userid" >
+            </div>
+     
+            <div class="group">
+                <label for="mobile">Email</label>
+                <input type="text" class="form-control" [(ngModel)]="studentToUpdate.email" name="email" required
+                    minlength="5">
+            </div>
+        
+            <div class="action">
+                <button class="btn btn-primary save" (click)="updateUser()">Save Changes</button>
+                <button class="btn btn-danger cancel" (click)="closeForm()">Cancel</button>
+            </div>
+        </div>
+    </div>
+   
+    
+                <!-- Blank Start -->
+                <div class="container-fluid pt-4 px-4 mat-elevation-z8">
+    
+    
+                    <router-outlet></router-outlet>
+    
+                    <div class="row vh-100  rounded align-items-center justify-content-center mx-0">
+                        
+                        <div class="col-md-6 text-center">
+    
+                        </div>
+                    </div>
+                </div>
+                <!-- Blank End -->
+    
+    
+                <!-- Footer Start -->
+                <div class="container-fluid pt-4 px-4">
+    
+                </div>
+                <!-- Footer End -->
+       
+
+
